@@ -1,0 +1,2 @@
+/*Write a program to reverse the char array and print the alternate
+elements of the array before and after reverse.*/

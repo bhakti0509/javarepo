@@ -1,0 +1,1 @@
+/*Write a program to count the palindrome elements in your array.*/
