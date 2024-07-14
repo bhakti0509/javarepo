@@ -10,9 +10,15 @@ class Demo{
 	public static void main(String[] args){
 		
 		Demo obj = new Demo();
+
 		System.out.println(obj.x);
 		System.out.println(y);
 		System.out.println(obj.str1);
 		System.out.println(str2);
+
+		System.out.println(System.identityHashCode(obj.x));
+		System.out.println(System.identityHashCode(y));
+		System.out.println(System.identityHashCode(obj.str1));
+		System.out.println(System.identityHashCode(str2));
 	}
 }
